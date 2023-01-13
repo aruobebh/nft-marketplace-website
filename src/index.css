@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@100;200;300;400;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --font-family: 'Outfit', sans-serif;
+  
+    --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    --featured: rgba(99, 91, 187, 0.19);
+
+    --background:
+      radial-gradient(
+      circle at 18% -3%, 
+      rgba(131, 131, 217, 0.6) 0%, 
+      transparent 17%
+      ),
+      radial-gradient(
+      circle at 99% 18%, 
+      rgba(173, 217, 218, 0.6) 0%, 
+      transparent 14%
+      ),
+      radial-gradient(
+      circle at -1% 41%, 
+      rgba(173, 217, 218, 0.6) 0%, 
+      transparent 17%
+      ),
+      radial-gradient(
+      circle at 115% 82%, 
+      rgba(131, 131, 217, 1) 0%, 
+      rgba(0, 2, 60, 1) 17%
+      );
+    
+    --color-bg: #00023C;
+    --cta-footer : linear-gradient(278.74deg, #AAE4E4 19.64%, #7171BA 91.33%);
+    --opacity: 0.5;
+    --color-btn: #8E8EDB;
+    --color-text: #81AFDD;
+    --testimonial: rgba(131, 131, 217, 0.7);
+  }

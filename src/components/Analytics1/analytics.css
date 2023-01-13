@@ -1,0 +1,106 @@
+.app__analytics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app__analytics div {
+    width: 40%;
+}
+
+.app__analytics-img img {
+    width: 100%;
+}
+
+.app__analytics-content {
+    line-height: 2rem;
+    text-align: start;
+}
+
+.app__analytics-content h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-bottom: 1rem;
+}
+
+.app__analytics-content h1 {
+    font-size: 44px;
+    line-height: 65px;
+    margin-bottom: 1rem;
+}
+
+.app__analytics-content p {
+    color: var(--color-text);
+    font-size: 20px;
+    margin-bottom: 1rem;
+    line-height: 30px;
+}
+
+.app__analytics-content a {
+    background-color: var(--color-btn);
+    padding: 8px 18px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .app__analytics-content {
+        line-height: 1.5rem;
+        text-align: start;
+    }
+    
+    .app__analytics-content h4 {
+        font-size: .9rem;
+        font-weight: 400;
+        letter-spacing: 3px;
+        margin-bottom: .9rem;
+    }
+    
+    .app__analytics-content h1 {
+        font-size: 38px;
+        line-height: 40px;
+        margin-bottom: .9rem;
+    }
+    
+    .app__analytics-content p {
+        color: var(--color-text);
+        font-size: 16px;
+        margin-bottom: .9rem;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .app__analytics {
+        flex-direction: column;
+    }
+
+    .app__analytics div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .app__analytics-content h4 {
+        font-size: 1rem;
+        letter-spacing: 3px;
+    }
+
+    .app__analytics-content h1 {
+        font-size: 40px;
+        line-height: 61px;
+    }
+    
+    .app__analytics-content p {
+        color: var(--color-text);
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .app__analytics-content a {
+        background-color: var(--color-btn);
+        padding: 9px 20px;
+    }
+}

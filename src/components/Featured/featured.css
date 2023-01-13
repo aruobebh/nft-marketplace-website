@@ -1,0 +1,37 @@
+.app__featured h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-align: start;
+    margin-bottom: 1rem;
+}
+
+.app__featured-logos {
+    padding: 1rem 3rem;
+    background-color: rgba(99, 91, 187, 0.34);
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 820px) {
+    .app__featured h4 {
+        font-size: 1rem;
+        letter-spacing: 3px;
+    }
+
+    .app__featured-logos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .app__featured-logos {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+    }
+}

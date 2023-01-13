@@ -1,0 +1,52 @@
+.app__footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.app__footer h4, h3 {
+    font-weight: 600;
+}
+
+.app__footer-item {
+    text-align: start;
+}
+
+.app__footer-item h4 {
+    margin-bottom: 1rem;
+}
+
+.app__footer-item li {
+    padding: 6px 0;
+    color: var(--color-text);
+}
+
+.app__footer-join h3 {
+    margin-bottom: 1.5rem;
+}
+
+.app__footer-join form {
+    border-radius: 3rem;
+    width: auto;
+    overflow: hidden;
+}
+
+.app__footer-join form input {
+    padding: 11px;
+    background: rgba(142, 142, 219, 0.2);
+    border: unset;
+    font-size: 1rem;
+}
+
+.app__footer-join form a {
+    padding: 0.7rem;
+    font-size: 15px;
+    background: black;
+}
+
+@media screen and (max-width: 850px) {
+    .app__footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
